@@ -1,0 +1,31 @@
+1.What is Emmet?
+ans -> it is a plugin which allow us to type shoertcuts which Expanded in to full piece of code .
+
+2.Difference between a Library and Framework?
+A) Library:
+1- Library is collection of classes , object,function and pre-written code
+2- Library is easy to replce with another Library
+3-building a Library is required less code so there is better performace and fast load time
+4-Library can be integrated easily in to exisiting projects
+eg. jquery, react
+
+B)Framework:
+1-It comprises of lot of APIs , compilers , support programs , libraries etc.
+2-It is difficult to replace frameworks.
+3-	A framework development requires a lot of code that decrease performance and increase the load time.
+4-Including framework smoothly into an existing project is impossible.
+eg.angular js , NodeJS
+
+3.What is CDN? Why do we use it?
+ans-A CDN is a network of servers that distributes content from an “origin” server throughout the world by caching content close to where each end user is accessing the internet via a web-enabled device. The content they request is first stored on the origin server and is then replicated and stored elsewhere as needed.
+The mission of a CDN is to reduce latency. Latency is that annoying delay you experience when trying to access a web page or video stream before it fully loads on your device. Although measured in milliseconds, it can feel like forever, and may even result in a load error or time-out.
+ 
+ 4.What is crossorigin in script tag?
+ and-This enables a better error handling experience in React 
+
+ 5.What is diference between React and ReactDOM?
+ ->The react package holds the react source for components, state, props and all the code that is react.
+->The react-dom package as the name implies is the glue between React and the DOM. Often, you will only use it for one single thing: mounting your application to the index.html file with ReactDOM.render().
+
+● What is difference between react.development.js and react.production.js files via CDN?
+according to me The development build is used - as the name suggests - for development reasons. You have Source Maps, debugging and often times hot reloading ability in those builds. The production build, on the other hand, runs in production mode which means this is the code running on your client's machine.

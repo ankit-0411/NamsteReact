@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+<<<<<<< HEAD
 import "/style.css";
 
 const Title = () => {
@@ -160,6 +161,11 @@ const restrauntList = [
     },
     subtype: "basic",
   },
+=======
+
+const heading2 = React.createElement(
+  "h2",
+>>>>>>> 5fa5f72 (changes)
   {
     type: "restaurant",
     data: {
@@ -412,6 +418,7 @@ const restrauntList = [
     },
     subtype: "basic",
   },
+<<<<<<< HEAD
   {
     type: "restaurant",
     data: {
@@ -1985,10 +1992,24 @@ const AppLayout = () => {
     </>
   );
 };
+=======
+  [heading, heading2]
+);
+//jsx ===>>>
+const heading3 = (
+  <h2 id="title" key="3">
+    Namste React
+  </h2>
+);
+>>>>>>> 5fa5f72 (changes)
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 //passing a react element inside the root
 
 //async defer
+<<<<<<< HEAD
 root.render(<AppLayout />);
+=======
+root.render(heading3);
+>>>>>>> 5fa5f72 (changes)

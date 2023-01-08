@@ -2905,6 +2905,7 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
+<<<<<<< HEAD
 var _styleCss = require("/style.css");
 const Title = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -5030,13 +5031,49 @@ $RefreshReg$(_c2, "RestrauntCard");
 $RefreshReg$(_c3, "Body");
 $RefreshReg$(_c4, "Footer");
 $RefreshReg$(_c5, "AppLayout");
+=======
+const heading = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {
+    id: "title",
+    key: "h1"
+}, "Heading 1 for parcel");
+console.log(heading);
+console.log("HWHhcjbdkjgwg");
+const heading2 = /*#__PURE__*/ (0, _reactDefault.default).createElement("h2", {
+    id: "title",
+    key: "h2"
+}, "Heading 2");
+const container = /*#__PURE__*/ (0, _reactDefault.default).createElement("div", {
+    id: "container",
+    hello: "world"
+}, [
+    heading,
+    heading2
+]);
+//jsx ===>>>
+const heading3 = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+    id: "title",
+    children: "Namste React"
+}, "3", false, {
+    fileName: "App.js",
+    lineNumber: 35,
+    columnNumber: 3
+}, undefined);
+const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
+//passing a react element inside the root
+//async defer
+root.render(heading3);
+>>>>>>> 5fa5f72 (changes)
 
   $parcel$ReactRefreshHelpers$c1db.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
+<<<<<<< HEAD
 },{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","/style.css":"dRy26"}],"iTorj":[function(require,module,exports) {
+=======
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+>>>>>>> 5fa5f72 (changes)
 "use strict";
 module.exports = require("d4c389a2c4adbb09");
 

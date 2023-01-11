@@ -2001,8 +2001,12 @@ const heading3 = (
     Namste React
   </h2>
 );
+<<<<<<< HEAD
 >>>>>>> 5fa5f72 (changes)
 
+=======
+//commentgit
+>>>>>>> 99527d1 (test commit)
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 //passing a react element inside the root
